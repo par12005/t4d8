@@ -1,3 +1,13 @@
+# Test HTML5 File Upload Form
+tripal.html5:
+  path: 'html5'
+  defaults:
+    _form: '\Drupal\tripal\Form\TripalHTML5TestForm'
+    _title: 'HTML5 Test'
+  requirements:
+    _permission: 'administer tripal'
+
+
 ##
 # Base Tripal Admin Menu.
 ##
